@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>RevealingChanges</title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+
+    <div class="title">
+      Techniques to Highlight the Meaningful Changes in Data Visualizations
+    </div>
+
+    <ul>
+        <li>Time Series Line Chart</li>
+          <p>In Cairo's words, "The X-axis (horizontal) in this kind of chart
+             represents equally spaced time intervals, and the Y-axis (vertical)
+             corresponds to the magnitude of the variables we wish to explore or
+             present" (P???). This kind of chart helps us find the changes of data
+             by paying attention to the trend and seasonality.
+          </p>
+          <div class="example">
+            <div class="eTitle">
+              Example:
+            </div>
+            <img src="TSLC.png" alt="Example">
+            <div class="eExplain">
+              This is an example of time series line charts. It shows the
+              California's health insurance coverage from 1995 to 2010. By
+              plotting the health insurance coverage in each year, we can see
+              the change of health insurance coverage, which goes up after 2000
+              and stay constant. Annotations in specific years help us better
+              understand the change.<br>
+              <a href="https://medium.com/berkeleyischool/how-to-create-a-visualization-showing-events-on-time-series-data-in-excel-96abbc1475e0">
+                Source</a>
+            </div>
+          </div>
+        <li>Seasonal Subseries Chart</li>
+          <p>It is a powerful tool for detecting seasonality in a time series.
+             However, we need to know the period of the seasonality to plot the
+             chart. Monthly data is good because it has a period of 12. We can
+             see the change of data clearly by looking at the difference between
+             group and within group.
+          </p>
+          <div class="example">
+            <div class="eTitle">
+              Example:
+            </div>
+            <img src="SSC.jpg" alt="Example">
+            <div class="eExplain">
+              This is an example of seasonal subseries charts. It is about the
+              sales trends by year within each month. In this chart, we can
+              easily compare the sales of each month. The black lines show the
+              trend in performance for each moth, while the gray horizontal lines
+              show the average sales for each month.<br>
+              <a href="http://www.exceluser.com/excel_dashboards/cycleplot1.htm">
+                Source</a>
+            </div>
+          </div>
+        <li>Zero-based Indexed Chart</li>
+          <p>Using zero-based indexed chart can tell us the difference between
+             data and the index origin.<br>
+             Percentage change = ((Each score – Index origin) / Indexorigin) × 100
+          </p>
+        <li>Horizon Chart</li>
+          <p>It is useful when you need to "display dozens of line charts
+             simultaneously" (P???).<br>
+             Three steps to make a horizon chart:<br>
+             (1) subdivide its vertical scale evenly, and color code positive
+             and negative values,<br>
+             (2) mirror the color bands corresponding to
+             negative values, and then<br>
+             (3) collapse the color bands. Following
+             these steps results in a much shorter chart.
+          </p>
+          <div class="example">
+            <div class="eTitle">
+              Example:
+            </div>
+            <img src="HZ.png" alt="Example">
+            <div class="eExplain">
+              <a href="https://www.aquaclusters.com/app/home/project/public/aquadatastudio/wikibook/New-Features-17.0/page/Horizon-Charts/Horizon-Charts">
+                Source</a>
+            </div>
+          </div>
+    </ul>
+
+  </body>
+</html>
